@@ -14,9 +14,7 @@ Individuals who remove or modify the license file will also carry the consequenc
 
 ## Badges
 
-# Build status
 [![Build Status](https://app.travis-ci.com/136472Makemake/software_testing_assignment.svg?branch=master)](https://app.travis-ci.com/136472Makemake/software_testing_assignment)
 
-# Coverage
 [![Coverage Status](https://coveralls.io/repos/github/136472Makemake/software_testing_assignment/badge.svg?branch=master)](https://coveralls.io/github/136472Makemake/software_testing_assignment?branch=master)
 
