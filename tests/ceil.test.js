@@ -11,7 +11,5 @@ describe("ceil function", () => {
 
     test('Rounds up to a negative precision', () => {
         expect(ceil(6040, -2)).toBe(6100);
-    });
-
-    
+    });  
 })

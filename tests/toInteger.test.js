@@ -1,15 +1,15 @@
 import toInteger from "../src/toInteger";
 
-describe("Check if value is integer", () => {
-    test('Decimal value is converted to integer.', () => {
+describe("toInteger function", () => {
+    test('Converts decimal number to integer', () => {
         expect(toInteger(3.2)).toBe(3);
     });
 
-    test('Is converted to value zero.', () => {
+    test('Converts Javascript\'s minimum value to 0', () => {
         expect(toInteger(Number.MIN_VALUE)).toBe(0);
     });
 
-    test('String to integer.', () => {
+    test('Converts string of a decimal number to integer', () => {
         expect(toInteger('3.2')).toBe(3);
     });
 })

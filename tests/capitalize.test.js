@@ -7,5 +7,5 @@ describe("capitalize function", () => {
 
     test('Does not capitalize the first letter if the first character is not a letter', () => {
         expect(capitalize("3sTrawBerRy")).toBe("3strawberry");
-    });
+        });
 })
