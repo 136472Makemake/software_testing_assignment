@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --verbose",
-    "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest --verbose --coverage",
+    "coveralls": "coveralls < coverage/lcov.info"
   },
   "author": "",
   "license": "MIT",
